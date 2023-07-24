@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile "korisnici.txt"
+AuthName "Administriranje sustava"
+Require valid-user

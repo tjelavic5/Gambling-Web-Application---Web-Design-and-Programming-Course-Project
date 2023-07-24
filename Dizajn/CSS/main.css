@@ -1,0 +1,125 @@
+header{
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+
+        background-color: #4777cd;
+        border-bottom: 1px #4777cd solid;
+
+        a{
+            color: white;
+            font-size: large;
+            text-decoration: none;
+
+            height: 25px;
+            width: fit-content;
+            border-radius: 10px;
+
+            transition: all 0.3s linear;
+
+            &:hover{
+                color: #4777cd;
+                text-decoration: none;
+                background-color: white;
+            }
+        }
+    }
+}
+
+body{
+    background-image: url(Slike/KugliceAnimacija1.gif); /*NE RADI!?*/
+    background-position: center;
+    background-size: 100%;
+    /*background-color: #4777cd;*/
+    background-color: magenta;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+main{
+    flex: 1 0 auto;
+
+    display: block;
+    height: fit-content;
+
+    margin-top: 60px;
+    padding-bottom: 64px;
+}
+
+footer{
+    background-color: #4777cd;
+    border-bottom: 1px #4777cd solid;
+
+    text-align: center;
+    font-size: smaller;
+}
+
+.naslov{
+    color: black;
+    text-align: center;
+}
+
+.formaPrijavaiRegistracija{
+    display: flex;
+    flex-direction: column;
+
+    margin: 2px auto;
+    padding: 30px 40px;
+
+    background-color: #4777cd;
+    border-radius: 20px;
+    border: 1px white solid;
+
+    input{
+        background-color: white;
+
+        border-radius: 10px;
+        border: none;
+        height: 20px;
+    }
+
+    button{
+        grid-column: 2 / span 1;
+        border-radius: 15px;
+        height: 30px;
+
+        background-color: cyan;
+        font-weight: bold;
+    }
+
+}
+
+.listici{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galerija{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+    padding: 10px;
+    margin: 24px;
+
+    min-width: 90%;
+    max-width: 400px;
+
+    background-color: greenyellow;
+    border-radius: 20px;
+
+}
